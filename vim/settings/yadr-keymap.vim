@@ -157,7 +157,7 @@ nnoremap ` '
 " ============================
 " SplitJoin plugin
 " ============================
-nmap sj :SplitjoinSplit<cr>
+nmap sj :Split j o inSplit<cr>
 nmap sk :SplitjoinJoin<cr>
 
 " Get the current highlight group. Useful for then remapping the color
@@ -170,3 +170,5 @@ map <silent> ,hp :!open -a Safari %<CR><CR>
 " :cp)
 nnoremap <silent> <C-x> :cn<CR>
 "nnoremap <silent> <C-z> :cp<CR>
+"
+nnoremap <leader>q :q<cr>
