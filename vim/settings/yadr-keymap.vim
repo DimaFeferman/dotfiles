@@ -157,7 +157,7 @@ nnoremap ` '
 " ============================
 " SplitJoin plugin
 " ============================
-nmap sj :Split j o inSplit<cr>
+nmap sj :SplitjoinSplit<cr>
 nmap sk :SplitjoinJoin<cr>
 
 " Get the current highlight group. Useful for then remapping the color
@@ -172,3 +172,4 @@ nnoremap <silent> <C-x> :cn<CR>
 "nnoremap <silent> <C-z> :cp<CR>
 "
 nnoremap <leader>q :q<cr>
+nnoremap <silent> <C-z> :cp<CR>
