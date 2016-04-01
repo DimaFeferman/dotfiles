@@ -126,8 +126,8 @@
 [include]
   path = .gitconfig.user
 [user]
-	name = Dmitriy Feferman
-	email = dmitriy@svds.com
+	name = Dima Feferman
+	email = dfe285@gmail.com 
 [difftool "sourcetree"]
 	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
 	path = 
