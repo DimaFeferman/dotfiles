@@ -9,3 +9,6 @@ Bundle 'mxw/vim-jsx'
 Bundle 'jparise/vim-graphql'
 Bundle 'SirVer/ultisnips'
 Bundle 'mxw/vim-jsx'
+Bundle 'derekwyatt/vim-scala'
+Bundle 'derekwyatt/vim-sbt'
+
